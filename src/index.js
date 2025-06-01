@@ -6,7 +6,20 @@ import connectDB from "./db/index.js";
 
 dotenv.config({ path: "./env" });
 
-connectDB();
+connectDB()
+//    .then(() =>{
+//      console.log("MongoDB Connected");
+
+//      app.on("error", (err) => {
+//             console.log("Mongoose connection error:", err);
+//             throw err;
+//         });
+
+//      app.listen(process.env.PORT ||8000,()=>{
+//         console.log(`Server running on port ${process.env.PORT}`);
+//      })
+//    })
+//    .catch((err) => console.error("MongoDB connection error:", err));
 
 
 
