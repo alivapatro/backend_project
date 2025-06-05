@@ -23,9 +23,9 @@ app.get("/", (req, res) => {
 
 import userRouter from './routes/user.routes.js'
 
-app.use("/api/v1/users", userRouter)
+app.use("/api/v1/users", userRouter);
 
-//http://localhost:8000/api/v1/users/register
 
+// http://localhost:8000/api/v1/users/register
 
 export { app };
